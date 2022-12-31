@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		3186E4102960703000AD41C7 /* ToDoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E40F2960703000AD41C7 /* ToDoListAppApp.swift */; };
-		3186E4122960703000AD41C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4112960703000AD41C7 /* ContentView.swift */; };
+		3186E4122960703000AD41C7 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4112960703000AD41C7 /* TaskListView.swift */; };
 		3186E4142960703200AD41C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3186E4132960703200AD41C7 /* Assets.xcassets */; };
 		3186E4172960703200AD41C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3186E4162960703200AD41C7 /* Preview Assets.xcassets */; };
 		3186E4192960703200AD41C7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4182960703200AD41C7 /* Persistence.swift */; };
 		3186E41C2960703200AD41C7 /* ToDoListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3186E41A2960703200AD41C7 /* ToDoListApp.xcdatamodeld */; };
+		3186E4242960738900AD41C7 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4232960738900AD41C7 /* FloatingButton.swift */; };
+		3186E427296073F000AD41C7 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E426296073F000AD41C7 /* TaskEditView.swift */; };
+		3186E4292960941400AD41C7 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4282960941400AD41C7 /* DateHolder.swift */; };
+		3186E42B2960992D00AD41C7 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E42A2960992D00AD41C7 /* TaskCell.swift */; };
+		3186E42D29609CFF00AD41C7 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E42C29609CFF00AD41C7 /* CheckBoxView.swift */; };
+		3186E43229609E5E00AD41C7 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E43129609E5E00AD41C7 /* TaskItemExtension.swift */; };
+		3186E4342960B43500AD41C7 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4332960B43500AD41C7 /* DateScroller.swift */; };
+		3186E4362960C15D00AD41C7 /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186E4352960C15D00AD41C7 /* TaskFilter.swift */; };
+		3186E4382960E9A200AD41C7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3186E4372960E9A200AD41C7 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3186E40C2960703000AD41C7 /* ToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3186E40C2960703000AD41C7 /* Do-Do-Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-Do-Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3186E40F2960703000AD41C7 /* ToDoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppApp.swift; sourceTree = "<group>"; };
-		3186E4112960703000AD41C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3186E4112960703000AD41C7 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		3186E4132960703200AD41C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3186E4162960703200AD41C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3186E4182960703200AD41C7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3186E41B2960703200AD41C7 /* ToDoListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoListApp.xcdatamodel; sourceTree = "<group>"; };
 		3186E41D2960703200AD41C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3186E4232960738900AD41C7 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		3186E426296073F000AD41C7 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		3186E4282960941400AD41C7 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		3186E42A2960992D00AD41C7 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		3186E42C29609CFF00AD41C7 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		3186E43129609E5E00AD41C7 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
+		3186E4332960B43500AD41C7 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
+		3186E4352960C15D00AD41C7 /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
+		3186E4372960E9A200AD41C7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +58,7 @@
 		3186E4032960703000AD41C7 = {
 			isa = PBXGroup;
 			children = (
-				3186E40E2960703000AD41C7 /* ToDoListApp */,
+				3186E40E2960703000AD41C7 /* Do-Do-Day */,
 				3186E40D2960703000AD41C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +66,23 @@
 		3186E40D2960703000AD41C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3186E40C2960703000AD41C7 /* ToDoListApp.app */,
+				3186E40C2960703000AD41C7 /* Do-Do-Day.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3186E40E2960703000AD41C7 /* ToDoListApp */ = {
+		3186E40E2960703000AD41C7 /* Do-Do-Day */ = {
 			isa = PBXGroup;
 			children = (
+				3186E42E29609DFC00AD41C7 /* Model */,
 				3186E40F2960703000AD41C7 /* ToDoListAppApp.swift */,
-				3186E4112960703000AD41C7 /* ContentView.swift */,
+				3186E425296073D500AD41C7 /* Views */,
 				3186E4132960703200AD41C7 /* Assets.xcassets */,
-				3186E4182960703200AD41C7 /* Persistence.swift */,
 				3186E41D2960703200AD41C7 /* Info.plist */,
 				3186E41A2960703200AD41C7 /* ToDoListApp.xcdatamodeld */,
 				3186E4152960703200AD41C7 /* Preview Content */,
 			);
-			path = ToDoListApp;
+			path = "Do-Do-Day";
 			sourceTree = "<group>";
 		};
 		3186E4152960703200AD41C7 /* Preview Content */ = {
@@ -75,12 +93,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3186E425296073D500AD41C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3186E4112960703000AD41C7 /* TaskListView.swift */,
+				3186E4352960C15D00AD41C7 /* TaskFilter.swift */,
+				3186E4332960B43500AD41C7 /* DateScroller.swift */,
+				3186E42A2960992D00AD41C7 /* TaskCell.swift */,
+				3186E42C29609CFF00AD41C7 /* CheckBoxView.swift */,
+				3186E4232960738900AD41C7 /* FloatingButton.swift */,
+				3186E426296073F000AD41C7 /* TaskEditView.swift */,
+				3186E4372960E9A200AD41C7 /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3186E42E29609DFC00AD41C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3186E4182960703200AD41C7 /* Persistence.swift */,
+				3186E43129609E5E00AD41C7 /* TaskItemExtension.swift */,
+				3186E4282960941400AD41C7 /* DateHolder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3186E40B2960703000AD41C7 /* ToDoListApp */ = {
+		3186E40B2960703000AD41C7 /* Do-Do-Day */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3186E4202960703200AD41C7 /* Build configuration list for PBXNativeTarget "ToDoListApp" */;
+			buildConfigurationList = 3186E4202960703200AD41C7 /* Build configuration list for PBXNativeTarget "Do-Do-Day" */;
 			buildPhases = (
 				3186E4082960703000AD41C7 /* Sources */,
 				3186E4092960703000AD41C7 /* Frameworks */,
@@ -90,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = ToDoListApp;
+			name = "Do-Do-Day";
 			productName = ToDoListApp;
-			productReference = 3186E40C2960703000AD41C7 /* ToDoListApp.app */;
+			productReference = 3186E40C2960703000AD41C7 /* Do-Do-Day.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3186E4072960703000AD41C7 /* Build configuration list for PBXProject "ToDoListApp" */;
+			buildConfigurationList = 3186E4072960703000AD41C7 /* Build configuration list for PBXProject "Do-Do-Day" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3186E40B2960703000AD41C7 /* ToDoListApp */,
+				3186E40B2960703000AD41C7 /* Do-Do-Day */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3186E4382960E9A200AD41C7 /* Launch Screen.storyboard in Resources */,
 				3186E4172960703200AD41C7 /* Preview Assets.xcassets in Resources */,
 				3186E4142960703200AD41C7 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3186E4292960941400AD41C7 /* DateHolder.swift in Sources */,
+				3186E43229609E5E00AD41C7 /* TaskItemExtension.swift in Sources */,
 				3186E4192960703200AD41C7 /* Persistence.swift in Sources */,
-				3186E4122960703000AD41C7 /* ContentView.swift in Sources */,
+				3186E4122960703000AD41C7 /* TaskListView.swift in Sources */,
+				3186E4362960C15D00AD41C7 /* TaskFilter.swift in Sources */,
+				3186E4242960738900AD41C7 /* FloatingButton.swift in Sources */,
+				3186E42D29609CFF00AD41C7 /* CheckBoxView.swift in Sources */,
+				3186E42B2960992D00AD41C7 /* TaskCell.swift in Sources */,
+				3186E4342960B43500AD41C7 /* DateScroller.swift in Sources */,
+				3186E427296073F000AD41C7 /* TaskEditView.swift in Sources */,
 				3186E4102960703000AD41C7 /* ToDoListAppApp.swift in Sources */,
 				3186E41C2960703200AD41C7 /* ToDoListApp.xcdatamodeld in Sources */,
 			);
@@ -205,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -276,21 +328,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ToDoListApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Do-Do-Day/Preview Content\"";
 				DEVELOPMENT_TEAM = 26A86F2569;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do-Do-Day";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-daviddelgadol.ToDoListApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-daviddelgadol.Do-Do-Day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,21 +360,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ToDoListApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Do-Do-Day/Preview Content\"";
 				DEVELOPMENT_TEAM = 26A86F2569;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do-Do-Day";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-daviddelgadol.ToDoListApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-daviddelgadol.Do-Do-Day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3186E4072960703000AD41C7 /* Build configuration list for PBXProject "ToDoListApp" */ = {
+		3186E4072960703000AD41C7 /* Build configuration list for PBXProject "Do-Do-Day" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3186E41E2960703200AD41C7 /* Debug */,
@@ -339,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3186E4202960703200AD41C7 /* Build configuration list for PBXNativeTarget "ToDoListApp" */ = {
+		3186E4202960703200AD41C7 /* Build configuration list for PBXNativeTarget "Do-Do-Day" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3186E4212960703200AD41C7 /* Debug */,
