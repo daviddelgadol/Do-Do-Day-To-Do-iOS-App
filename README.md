@@ -9,10 +9,9 @@ their tasks. Finally, the app allows the user to sort task by: date, to do, all 
 database, **it can be used fully offline**.
 
 ### App Evaluation
-- The app was developed using XCode 14.2 ans it was intended for me to learn the basics of **SwiftUi** and **CoreData**.
-- The main porpuse of Do-Do-Day is to be especially useful for helping users stay organized and on top of their responsibilities.
-- The app uses two different ways to filter SwiftUi lists (for education porpuses), one using CoreData and fetch specs with a sort order; and
-secondly, using a SwiftUi picker with the different filter options.
+- The app was developed using XCode 14.2 and it was intended for me to learn the basics of **SwiftUi** and **CoreData**.
+- The main purpose of Do-Do-Day is to be especially useful for helping users stay organized and on top of their responsibilities.
+- The app uses two different ways to filter SwiftUi lists (for education purposes), one using CoreData and fetching specs with a sort order; and secondly, using a SwiftUi picker with different filter options.
 
 ### 1. User Stories (Required and Optional)
 
